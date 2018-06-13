@@ -6,54 +6,51 @@
           "node": {
             "hostnames": {
               "manage": [
-                "node0"
+                "kube-1"
               ],
               "storage": [
-                "192.168.10.100"
+                "10.3.64.11"
               ]
             },
             "zone": 1
           },
           "devices": [
             "/dev/vdb",
-            "/dev/vdc",
-            "/dev/vdd"
+            "/dev/vdc"
           ]
         },
         {
           "node": {
             "hostnames": {
               "manage": [
-                "node1"
+                "kube-2"
               ],
               "storage": [
-                "192.168.10.101"
+                "10.3.64.4"
               ]
             },
             "zone": 1
           },
           "devices": [
             "/dev/vdb",
-            "/dev/vdc",
-            "/dev/vdd"
+            "/dev/vdc"
           ]
         },
         {
           "node": {
             "hostnames": {
               "manage": [
-                "node2"
+                "kube-3"
               ],
               "storage": [
-                "192.168.10.102"
+                "10.3.64.9"
               ]
             },
             "zone": 1
           },
           "devices": [
             "/dev/vdb",
-            "/dev/vdc",
-            "/dev/vdd"
+            "/dev/vdc"
           ]
         }
       ]
